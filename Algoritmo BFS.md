@@ -25,7 +25,7 @@
 - Si el gráfico se representa como una lista de adyacencia:
   - Cada nodo mantiene una lista de todos sus bordes adyacentes. Supongamos que hay un número V de nodos y un número E de aristas en el gráfico.
   - Para cada nodo, descubrimos todos sus vecinos atravesando su lista de adyacencia solo una vez en tiempo lineal.
-  - Para un gráfico dirigido, la suma de los tamaños de las listas de adyacencia de todos los nodos es E. Entonces, la complejidad de tiempo en este caso es O (V) + O (E) = O (V + E).
+  - Para un gráfico dirigido, la suma de los tamaños de las listas de adyacencia de todos los nodos es E. Entonces, la complejidad de tiempo en este caso es O (V) + O (E) = O (V + E). 
   - Para un gráfico no dirigido, cada borde aparece dos veces. Una vez en la lista de adyacencia de cualquier extremo del borde. La complejidad de tiempo para este caso será O (V) + O (2E) ~ O (V + E).
 - Si el gráfico se representa como una matriz de adyacencia (una matriz V x V):
   - Para cada nodo, tendremos que recorrer una fila completa de longitud V en la matriz para descubrir todos sus bordes salientes.
