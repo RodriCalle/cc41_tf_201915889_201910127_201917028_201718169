@@ -29,5 +29,5 @@
   - Para un gráfico no dirigido, cada borde aparece dos veces. Una vez en la lista de adyacencia de cualquier extremo del borde. La complejidad de tiempo para este caso será O (V) + O (2E) ~ O (V + E).
 - Si el gráfico se representa como una matriz de adyacencia (una matriz V x V):
   - Para cada nodo, tendremos que recorrer una fila completa de longitud V en la matriz para descubrir todos sus bordes salientes.
-  - Tener en cuenta que cada fila en una matriz de adyacencia corresponde a un nodo en el gráfico, y esa fila almacena información sobre los bordes que emergen del nodo. Por tanto, la complejidad temporal de BFS en este caso es O (V * V) = O (V^2).
+  - Tener en cuenta que cada fila en una matriz de adyacencia corresponde a un nodo en el gráfico, y esa fila almacena información sobre los bordes que emergen del nodo. Por tanto, la complejidad temporal de BFS en este caso es O (V * V) = O (V^2). 
 - La complejidad temporal de BFS depende en realidad de la estructura de datos que se utilice para representar el gráfico.
