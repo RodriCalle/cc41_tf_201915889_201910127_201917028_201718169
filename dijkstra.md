@@ -1,7 +1,7 @@
-#Algoritmo dijkstra
-----
-##Explicacion detallada del problema
-----
+# Algoritmo dijkstra
+
+## Explicacion detallada del problema
+
 Primero se agrupan los puntos de entrega más cercanos a cada almacén y luego se procederá a calcular
 los caminos minimos desde cada almacén a cada punto de entrega agrupado previamente.
 Por ejemplo: si hay 50 almacenes y 2500 puntos de entrega, aproximadamente le tocará a cada almacen
@@ -16,8 +16,8 @@ Luego se va hacia los puntos de entrega adyacentes se va hacia los caminos adyac
 distancias minimas y desencolando cada vez que se encuentra una distancia minima mejor, este algoritmo
 termina cuando ha recorrido todos los puntos y se compara entre los caminos generados y se elige el menor
 
-##Posible analisis asintotico
-----
+## Posible analisis asintotico
+
 La complejidad computacional del algoritmo de Dijkstra se puede calcular contando las operaciones realizadas:
 - El algoritmo consiste en n-1 iteraciones, como máximo. En cada iteración, se añade un vértice al conjunto distinguido.
 - En cada iteración, se identifica el vértice con la menor etiqueta . El número de estas operaciones está acotado por n-1.
