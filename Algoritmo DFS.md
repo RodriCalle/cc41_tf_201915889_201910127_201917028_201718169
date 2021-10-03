@@ -1,6 +1,6 @@
-#Algoritmo Depth-First Search (DFS)
+# Algoritmo Depth-First Search (DFS)
 
-##Pseudocódigo del algoritmo
+## Pseudocódigo del algoritmo
 
 	DFS(grafo, nodoOrigen):
 		n =  tamañoGrafo
@@ -16,7 +16,7 @@
 						parent[v] = u
 						stack.añadir(v)
 		retornar parent
-##Posible Análisis Asintótico
+## Posible Análisis Asintótico
 
 Si el grafo se representa como una lista de adyacencia:
 - Cada nodo mantiene una lista de todos sus bordes adyacentes. Supongamos que hay un número V de nodos y un número E de aristas en el grafo.
