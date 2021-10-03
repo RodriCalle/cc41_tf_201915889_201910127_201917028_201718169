@@ -1,7 +1,7 @@
 #Algoritmo Depth-First Search (DFS)
-----
+
 ##Pseudocódigo del algoritmo
-----
+
 	DFS(grafo, nodoOrigen):
 		n =  tamañoGrafo
 		visited = [NO_VISITADO]*n
@@ -17,7 +17,7 @@
 						stack.añadir(v)
 		retornar parent
 ##Posible Análisis Asintótico
-----
+
 Si el grafo se representa como una lista de adyacencia:
 - Cada nodo mantiene una lista de todos sus bordes adyacentes. Supongamos que hay un número V de nodos y un número E de aristas en el grafo.
 - Para cada nodo, descubrimos todos sus vecinos atravesando su lista de adyacencia solo una vez en tiempo lineal.
