@@ -10,7 +10,6 @@ El problema de enrutamiento vehicular propone optimizar las rutas para una flota
 
 El problema de enrutamiento vehicular puede llegar a ser muy complejo y con muchas posibles soluciones, por ello planteare la solucion de la forma mas simple tomando como ejemplo el algoritmo de Clarke y Wright.
 ``` 
-
 El algoritmo se desarrolla de la siguiente manera:
 1. Para n rutas: v0 → vi → v0, para cada i ≥ 1;
 2. Calcule los ahorros del trafico que ingresa a las ubicaciones de entrega i y j, que viene dado por 
