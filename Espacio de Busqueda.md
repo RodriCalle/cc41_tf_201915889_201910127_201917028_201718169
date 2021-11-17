@@ -1,11 +1,13 @@
 # Espacio de busqueda
-Estructura de Datos : Matrix 1000x1000
+Estructura de Datos : Matriz 1000 x 1000
 
-Puntos de Distribucion : Representado con puntos azules
+Puntos de Distribución : Representado con puntos azules
 
-Punto de Entrega : Representado con puntos rojos
+Puntos de Entrega : Representado con puntos rojos
 
 Representacion de los Puntos (X,Y)
+
+Representacion de los nodos  (Numero de nodo)
 
 Estado Inicial | Estado Final
 -|-
