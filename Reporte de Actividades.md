@@ -1,5 +1,5 @@
 # Reporte de Actividades 📝
-Lista de actividades realizadas para el [Trabajo Parcial](https://github.com/RodriCalle/cc41_tf_201915889_201910127_201917028_201718169_20141a449/milestone/1?closed=1)
+Lista de actividades realizadas para el [Trabajo Final](https://github.com/RodriCalle/cc41_tf_201915889_201910127_201917028_201718169_20141a449/)
 N° de Actividad | Actividad | Assignees 👨‍💻 | Labels 🏷️ | Fecha de entrega 📅 | 
 -|-|-|-|-
 1| Actualizar lista de Integrantes.| Rodrigo Calle |  `Documentation` | 27/09/2021
