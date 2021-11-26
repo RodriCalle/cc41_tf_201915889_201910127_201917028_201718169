@@ -3,15 +3,14 @@
 
 INTEGRANTES | CODIGO| 
 -|-|
-Carlos Leon Rupay| u201917028.| 
+Carlos Leon Rupay| u201917028  
 Adrian Esqueiros Cabrera|u201718169 | 
 Rodrigo Calle Galdos|u201915889|
 Juan de Dios Quiroz Rodríguez|u201910127|
 
-## Introducción
-
-El Problema de generación de rutas para vehículos (VRP) es un nombre genérico que se le da a toda una clase de problemas en los que se debe determinar un conjunto de rutas para una flota de vehículos con base en uno o varios depósitos para varias ciudades o clientes geográficamente dispersos. El objetivo del VRP es ofrecer un conjunto de clientes con demandas conocidas sobre rutas de vehículos de costo mínimo que se originan y terminan en un depósito. En las dos figuras siguientes podemos ver una imagen de una entrada típica para un problema de VRP y una de sus posibles salidas:
-
+##  INTRODUC
+Este trabajo consiste en resolver el problema de enrutamiento de vehículos, más conocido como VRP, en su versión para múltiples puntos de distribución. A menudo, este suele ser un problema bastante común en las empresas de reparto de bienes y productos, pues lo que ellos buscan es encontrar la ruta de entrega más óptima tomando en cuenta diversos factores tales como el lugar de sus almacenes, la distancia entre sus almacenes hacia los diferentes puntos de entrega, así como también ciertos recursos como los vehículos a usar, el combustible, tiempo, etc.
+ 
 ## MARCO TEÓRICO
 ### Algoritmo DFS (Breadth First Search)
 El algoritmo de búsqueda en profundidad es utilizado para recorrer todos los nodos de un grafo de manera ordenada, pero no uniforme. Su funcionamiento consiste en ir expandiendo todos y cada uno de los nodos que va localizando, de forma recurrente, en un camino concreto
@@ -197,7 +196,10 @@ Para encontrar la solución más optima para el Problema de Enrutamiento de Veh�
 ## CONCLUSIONES
 
 -   La principal diferencia entre el TSP y el VRP consiste en la consideración de varios vehículos en el modelo de enrutamiento 
--   Tanto los algoritmos BFS,DYC, DFS y PRIM no elegidos ideales, ya que no presentan el rendimiento suficiente para soportar el presente gráfico
+-   Tanto los algoritmos BFS,DYC, DFS y PRIM no elegidos ideales, ya que no presentan el rendimiento suficiente para soportar el presente 
+-  Terminamos considerando que el algoritmo Djikstra es el más adecuado para la solucion del problema de enrutamiento solicitado
+- Gracias al trabajo realizado pudimos ahondarnos mucho más en el lenguaje de programacion Phyton ,el cual hasta el principio del semestre era nuevo para nosotros
+-  Finalmente el uso del recurso de herramientas como Github nos permitio conocer más acerca del uso de Issues y commit ,lo cual nos ayudara muchisimo en futuros proyectos
 
 ## BIBLIOGRAFÍA
 
