@@ -199,7 +199,7 @@ Para encontrar la solución más optima para el Problema de Enrutamiento de Veh�
 -   Tanto los algoritmos BFS,DYC, DFS y PRIM no elegidos ideales, ya que no presentan el rendimiento suficiente para soportar el presente 
 -  Terminamos considerando que el algoritmo Djikstra es el más adecuado para la solucion del problema de enrutamiento solicitado
 - Gracias al trabajo realizado pudimos ahondarnos mucho más en el lenguaje de programacion Phyton ,el cual hasta el principio del semestre era nuevo para nosotros
--  Finalmente el uso del recurso de herramientas como Github nos permitio conocer más acerca del uso de Issues y commit ,lo cual nos ayudara muchisimo en futuros proyectos
+-  Finalmente el uso de herramientas como Github nos permitio conocer más acerca del uso de Issues y commit, lo cual nos ayudara muchisimo en futuros proyectos
 
 ## BIBLIOGRAFÍA
 
