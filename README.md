@@ -23,3 +23,13 @@ N° de Actividad | Actividad | Assignees 👨‍💻 | Labels 🏷️ | Fecha de
 10|Definir algoritmo integrante 5 en alto nivel con posible análisis asintótico. |Juan de Dios Quiroz|`Documentation  Enhancement`|2/10/2021
 11|Producir reporte de actividades.|Adrian Esqueiros|`Documentation `|2/10/2021
 12|Incluir URL de video en youtube (u otro servicio) no listado (compartido por URL, privado) en el archivo README.md de un video elaborado de máximo 1 minuto explicando actividades realizadas.|Jean Percy Briceño|`Documentation `|2/10/2021
+12|# Grafos de ciudad (malla), puntos de distribución y de entrega.|Rodrigo Calle|`Enhancement `|19/10/2021
+13|# Algoritmo para repartir puntos de entrega entre almacenes, utilizar criterio de cercanía.|Juan de Dios Quiroz|`Enhancement `|16/11/2021
+14|# # Modificar algoritmo Dijkstra para cada almacen, ahora a sus puntos cercanos.|Carlos Leon|`Enhancement `|16/11/2021
+15|# # Implementación del algoritmo 1.|Rodrigo Calle|`Enhancement `|24/11/2021
+16|# # Implementación del algoritmo 2.|Carlos Leon|`Enhancement `|24/11/2021
+17|# # Implementación del algoritmo 3.|Juan de Dios Quiroz|`Enhancement `|24/11/2021
+18|# # Implementación del algoritmo 4.|Adrian Esqueiros|`Enhancement `|24/11/2021
+19|# # Elaborar version final del informe.md|Carlos Leon|`Documentation `|25/11/2021
+20|# # Elaborar presentacion.ppt|Adrian Esqueiros|`Documentation `|25/11/2021
+21|# # Elaboración de un video de 10 a 15 minutos con la exposición donde participan todos los integrantes:|Adrian Esqueiros - Carlos Leon - Juan de Dios Quiroz - Rodrigo Calle|`Documentation `|26/11/2021
