@@ -42,6 +42,6 @@ N° de Algoritmo | Nombre | Assignees 👨‍💻 |
 3|Algoritmo DFS|Juan de Dios Quiroz|
 4|Algoritmo BFS|Adrian Esqueiros|
 # Video de exposicion
-Link: 
+Link: https://youtu.be/07rhZVEGWMo
                                          
 
