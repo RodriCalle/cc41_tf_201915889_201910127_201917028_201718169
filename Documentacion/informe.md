@@ -8,7 +8,7 @@ Adrian Esqueiros Cabrera|u201718169 |
 Rodrigo Calle Galdos|u201915889|
 Juan de Dios Quiroz Rodríguez|u201910127|
 
-##  INTRODUC
+##  INTRODUCCION
 Este trabajo consiste en resolver el problema de enrutamiento de vehículos, más conocido como VRP, en su versión para múltiples puntos de distribución. A menudo, este suele ser un problema bastante común en las empresas de reparto de bienes y productos, pues lo que ellos buscan es encontrar la ruta de entrega más óptima tomando en cuenta diversos factores tales como el lugar de sus almacenes, la distancia entre sus almacenes hacia los diferentes puntos de entrega, así como también ciertos recursos como los vehículos a usar, el combustible, tiempo, etc.
  
 ## MARCO TEÓRICO
@@ -24,9 +24,9 @@ El algoritmo de Prim permite encontrar un árbol recubridor minimo, es decir un 
 Este algoritmo examina todos los nodos de un árbol sistemáticamente para buscar el camino más corto partiendo de un punto específico.
 > -   La complejidad del algoritmo BFS está representado por O(V + E).
 
-### Algoritmo DYC (Divide and Conquer)
-Como sugiere el nombre, es descomponer un gran problema en varios subproblemas, y luego resolvemos estos subproblemas uno por uno. Una vez resueltos todos los subproblemas, el gran problema general está resuelto.
-> - Es la base de los algoritmos eficientes para casi cualquier tipo de problema como, por ejemplo, algoritmos de ordenamiento (quicksort, mergesort, entre muchos otros),
+### Algoritmo BellmanFord
+Este algoritmo genera el camino más corto en un grafo dirigido ponderado (en el que el peso de alguna de las aristas puede ser negativo). El algoritmo de Dijkstra resuelve este mismo problema en un tiempo menor.
+> - Requiere que los pesos de las aristas no sean negativos, salvo que el grafo sea dirigido y sin ciclos.
 
 
 # DESARROLLO
@@ -179,19 +179,96 @@ print(groupsEnt)
 Para encontrar la solución más optima para el Problema de Enrutamiento de Vehículos (VRP) se implementaron 4 algoritmos (1 por integrante).
 ### ALGORITMO 1 - PRIM
 <pre>
+def newPrim(G,pointAlmacen):
+  visited = {}
+  path = {}
+  cost = {}
+  for k in G.keys():
+    visited[k] = False
+    path[k] = None
+    cost[k] = math.inf
+  cost[pointAlmacen] = 0
+  q = [(0, pointAlmacen)]
+  while q:
+    _, u = hq.heappop(q)
+    if not visited[u]:
+      visited[u] = True
+      for v in G[u]:
+        if not visited[v] and 1 < cost[v]:
+          cost[v] = 1
+          path[v] = u
+          hq.heappush(q, (1, v))
 
+  return path
 </pre>
-### ALGORITMO 2 - Divide and Conquer
+### ALGORITMO 2 - BellmanFord
 <pre>
-
+def bellmanFordF(G, p_a):
+  n = len(G)
+  cost = {}
+  path = {}
+  for key in G.keys():
+    path[key] = None
+    cost[key] = math.inf
+  cost[p_a] = 0
+  for _ in range(n-1):
+    for u in G.keys():
+      for v in G[u]:
+        if cost[u] + 1 < cost[v]:
+          cost[v] = cost[u] + 1
+          path[v] = u
+  for u in G.keys():
+    for v in G[u]:
+      if cost[u] + 1 < cost[v]:
+        return None 
+  return path
 </pre>
 ### ALGORITMO 3 - DFS
 <pre>
+def dfsDict(G, almacenes, depth):      
+  visited = {}
+  path = {}
+  reached = {}
+  for k in G.keys():              
+    visited[k] = False
+    path[k] = None
+    reached[k] = False
 
+  def _dfs(u, depth):
+    if depth > 0:                    
+        if not visited[u]:                  
+            visited[u] = True                
+            for v in G[u]:                   
+              if not visited[v]:
+                path[v] = u               
+                reached[v] = True
+                _dfs(v, depth-1)            
+                
+  reached[almacenes]= True              
+  _dfs(almacenes, depth)
+     
+  return path
 </pre>
 ### ALGORITMO 4 - BFS
 <pre>
+def bfs(G, s):         
+  visited = {}
+  path = {}
+  for key in G.keys():
+    visited[key] = False
+    path[key] = None
+  queue = [s]
+  visited[s] = True
 
+  while queue:         
+    u = queue.pop(0)                
+    for v in G[u]:         
+      if not visited[v]:
+        visited [v] = True
+        path[v] = u          
+        queue.append(v)
+        
+  return path
 </pre>
 ## CONCLUSIONES
 

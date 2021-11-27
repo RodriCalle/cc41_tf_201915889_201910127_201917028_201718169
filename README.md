@@ -38,10 +38,10 @@ N° de Actividad | Actividad | Assignees 👨‍💻 | Labels 🏷️ | Fecha de
 N° de Algoritmo | Nombre | Assignees 👨‍💻 | 
 -|-|-
 1| Algoritmo Prim| Rodrigo Calle |  
-2|Algoritmo Divide and Conquer | Carlos Leon|
+2|Algoritmo BellmanFord | Carlos Leon|
 3|Algoritmo DFS|Juan de Dios Quiroz|
 4|Algoritmo BFS|Adrian Esqueiros|
 # Video de exposicion
-Link:
+Link: 
                                          
 
