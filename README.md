@@ -33,3 +33,14 @@ N° de Actividad | Actividad | Assignees 👨‍💻 | Labels 🏷️ | Fecha de
 19|# # Elaborar version final del informe.md|Carlos Leon|`Documentation `|25/11/2021
 20|# # Elaborar presentacion.ppt|Adrian Esqueiros|`Documentation `|25/11/2021
 21|# # Elaboración de un video de 10 a 15 minutos con la exposición donde participan todos los integrantes:|Adrian Esqueiros - Carlos Leon - Juan de Dios Quiroz - Rodrigo Calle|`Documentation `|26/11/2021
+# Algoritmo por cada integrante
+
+N° de Algoritmo | Nombre | Assignees 👨‍💻 | 
+-|-|-
+1| Algoritmo Prim| Rodrigo Calle |  
+2|Algoritmo Divide and Conquer | Carlos Leon|
+3|Algoritmo DFS|Juan de Dios Quiroz|
+4|Algoritmo BFS|Adrian Esqueiros|
+# Video de exposicion
+Link:
+
